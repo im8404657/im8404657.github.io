@@ -1,0 +1,34 @@
+<!doctype html> <!-- myTable.html -->
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<style> table,thead, tbody, tfoot, tr,th,td {
+ border: 1px solid black;  border-collapse: collpse; 
+}
+</style> <!--  border-collapse: collapse 단선으로, 반대는 separate -->
+<title>20210487 행정학과 이민경 시간표</title>
+</head>
+<body>
+<table>
+<caption>2023-1학기 시간표</caption>
+<thead>
+  <tr><th>요일</th><th>월</th><th>화</th><th>수</th><th>목</th><th colspan="2">금</th></tr>
+</thead>
+  <tbody>
+    <tr><td>1교시</td><td>-</td><td>-</td><td>시사행</td><td>-</td><td>-</td><td colspan="3">-</td></tr>
+    <tr><td>2교시</td><td>-</td><td>-</td><td>이산수학</td><td>-</td></tr>
+    <tr><td>3교시</td><td rowspan="2">글쓰기 기초</td><td rowspan="2">시민사회의<br/>정치와<br/>행정</td><td rowspan="2">문학과인성</td><td rowspan="2">영어회화</td></tr>
+    <tr><td>4교시</td><td></td><td></td></tr>
+    <tr><td>5교시</td><td>-</td><td rowspan="4">디지털<br/>리터러시와<br/>스마트<br/>워크</td></tr>
+    <tr><td>6교시</td></tr>
+    <tr><td>7교시</td><td rowspan="2">이산수학</td><td rowspan="3">인터넷 응용</td></tr>
+    <tr><td>8교시</td></tr>
+    <tr><td>9교시</td></tr>
+  </tbody>
+  <tfoot>
+   <tr><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+  </tfoot>
+  </table>
+  </body>
+  </html>
